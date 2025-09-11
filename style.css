@@ -42,3 +42,13 @@ header > div {
 .red-circle {
   background-color: red;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+ul li a {
+  font-size: 24px;
+}
