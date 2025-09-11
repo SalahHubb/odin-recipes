@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(9, 9, 138);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+header > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
+}
+
+.testimonial .light-yellow-circle,
+.light-blue-circle,
+.red-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.light-yellow-circle {
+  background-color: lightyellow;
+}
+
+.light-blue-circle {
+  background-color: lightskyblue;
+}
+
+.red-circle {
+  background-color: red;
+}
